@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 //2 - Define una ruta para mi API
 @RequestMapping("/api/videojuegos")
 
-//Metodo publico
+//Metodo publicoo
 public class VideojuegoController {
     //3 - Responde mediante una solicitud GET (/api/videojuegos/hola)
     @GetMapping("/hola")
